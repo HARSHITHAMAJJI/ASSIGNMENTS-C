@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() 
+{
+    int i,j,n,flag,arr[10];
+    printf("enter the size");
+    scanf("%d",&n);
+    printf("enter the elements into the array\n");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    printf("the prime numbers are\n");
+    for(i=0;i<n;i++)
+    {
+        flag=0;
+        for(j=2;j<arr[i];j++)
+        {
+            if(arr[i]%j==0)
+            {
+                flag=1;
+                break;
+            }
+        }
+        if(flag==0)
+        {
+            printf("%d\t",arr[i]);
+        }
+    }
+    
+    
+    return 0;
+}
