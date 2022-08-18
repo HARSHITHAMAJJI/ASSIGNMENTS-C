@@ -1,0 +1,22 @@
+#include<stdio.h>
+    
+int main()
+{
+    int i,a[50],n,j;
+    printf("enter the size");
+    scanf("%d",&n);
+    
+    for(i=0;i<n;i++)
+    {
+        for(j=1;j<a[i];j++)
+        {
+            scanf("%d",&a[i]);
+        }
+    }
+    if(a[i]==j)
+    printf("DUPLICATE\n");
+    else
+    printf("UNIQUE");
+	
+    return 0;
+}
