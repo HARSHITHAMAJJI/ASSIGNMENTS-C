@@ -1,0 +1,6 @@
+x = input("Type a number: ")
+y = input("Type another number: ")
+
+Div = int(x) - int(y)
+
+print("The division is: ", Div)
