@@ -1,0 +1,8 @@
+a=int(input('enter a value'))
+b=int(input('enter b value'))
+c=a&b
+print('AND',c)
+d=a|b
+print('OR',d)
+e=a^b
+print('XOR',e)
