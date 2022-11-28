@@ -1,0 +1,5 @@
+bal=int(input('balance:'))
+amount=int(input('enter amount:'))
+print('credited amount:',amount)
+total=bal+amount
+print('total amount:',total)
