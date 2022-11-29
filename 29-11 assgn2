@@ -1,0 +1,19 @@
+empno=int(input('enter emp no:'))
+empname=input('enter empname:')
+basicsalary=int(input('enter salary:'))
+da=int(input())
+ta=int(input())
+hra=int(input())
+netsalary=basicsalary+da+ta+hra
+if netsalary>100000:
+    tax=(netsalary*10)/100 
+    print('tax:',tax)
+if netsalary>50000:
+    tax=(netsalary*7)/100
+    print('tax:',tax)
+if netsalary>20000:
+    tax=(netsalary*2)/100
+    print('tax:',tax)
+if netsalary<20000:
+    tax=0 
+    print('tax:',tax)
