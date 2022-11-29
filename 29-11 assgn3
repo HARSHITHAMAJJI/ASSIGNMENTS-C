@@ -1,0 +1,19 @@
+sno=int(input('enter student no:'))
+sname=input('enter student name:')
+group=input('enter group:')
+s1=int(input('enter maths marks:'))
+s2=int(input('enter stat marks:'))
+s3=int(input('enter cs marks:'))
+total=s1+s2+s3
+avg=total/s3
+print('sno',sno)
+print('sname:',sname)
+print('group:',group)
+print('result:')
+if s1>=35:
+    if s2>=35:
+        if s3>=35:
+            print('pass')
+else:
+    print('fail')
+
