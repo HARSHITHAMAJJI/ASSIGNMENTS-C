@@ -1,0 +1,28 @@
+apples=20
+carrot=20
+orange=30
+tomato=30
+onion=30
+cname=input('enter customer name:')
+cphno=int(input('enter customer phn no:'))
+caddr=input('enter customer address:')
+aq=int(input('no of apples='))
+cq=int(input('no of carrots='))
+oq=int(input('no of oranges='))
+tq=int(input('no of tomatoes='))
+onq=int(input('no of onions='))
+bill=(apples*aq)+(carrot*cq)+(orange*oq)+(tomato*tq)+(onion*onq)
+coupon=input('enter coupon')
+if coupon=='DIWALI' and bill>=5000:
+    dis=(bill*10)/100 
+    print('discount=',dis)
+elif bill>=3000:    
+    dis=(bill*6)/100
+    print('discount=',dis)
+elif bill>=1000:
+    dis=(bill*4)/100
+    print('discount=',dis)
+else:
+    dis=0 
+    print('discount=',dis)
+
