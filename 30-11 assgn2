@@ -26,3 +26,15 @@ else:
     dis=0 
     print('discount=',dis)
 
+if coupon=='CHRISTMAS' and bill>=3000:
+    dis=(bill*20)/100 
+    print('discount=',dis)
+elif bill>=2000:
+    dis=(bill*10)/100
+    print('discount=',dis)
+elif bill>=1000:
+    dis=(bill*5)/1000
+    print('discount=',dis)
+else:
+    dis=0 
+    print('discount=',dis)
