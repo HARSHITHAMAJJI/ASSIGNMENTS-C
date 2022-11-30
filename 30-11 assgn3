@@ -1,0 +1,18 @@
+billno=int(input('enter bill no:'))
+name=input('enter name:')
+address=input('enter address')
+units=int(input('enter units consumed:'))
+if units<=100:
+    bill=units*2
+    charge=20
+elif units<=200 and units>100:
+    bill=units*5+(units-100)*2
+    charge=40
+elif units<=300 and units>200:
+    bill=units*8+(units-200)*5+(units-100)*2
+    charge=70
+else:
+    bill=0 
+    charge=0 
+total=bill+charge
+print('bill:',total)
