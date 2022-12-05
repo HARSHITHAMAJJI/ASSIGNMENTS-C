@@ -1,0 +1,15 @@
+n=int(input('enter how many no.s you want'))
+num=int(input('enter any no.'))
+largest=num
+smallest=num
+i=1
+while i<n:
+    num=int(input('enter any no.'))
+    if(num>largest):
+        largest=num
+        i=i+1
+    elif(num<smallest):
+        smallest=num
+        i=i+1
+print(largest-smallest)
+
