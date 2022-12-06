@@ -1,0 +1,11 @@
+n=int(input())
+sum=0
+t=n
+while t>0:
+    rem=t%10
+    sum=sum+(rem*rem*rem)
+    t=t//10
+if n==sum:
+    print('armstrong')
+else:
+    print('not armstrong')
