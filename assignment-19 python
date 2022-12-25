@@ -1,0 +1,8 @@
+#square
+n=int(input())
+sqr=n*n
+print(sqr)
+if sqr>10:
+    print('hello')
+else:
+    print('hi')
